@@ -3,7 +3,7 @@ import React from 'react';
 import { Platform } from 'react-native';
 
 import { FontAwesome6, Ionicons } from '@expo/vector-icons';
-import { HapticTab } from '@/components/HapticTab';
+import { HapticTab } from '../../components/HapticTab';
 
 export default function TabLayout() {
 

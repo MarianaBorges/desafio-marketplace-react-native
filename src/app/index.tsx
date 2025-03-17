@@ -1,6 +1,6 @@
 import { Link } from 'expo-router';
 import { View, Text } from 'react-native';
-import Logo from '@assets/logo.svg'
+import Logo from '../assets/logo.svg'
 
 export default function LoginScreen() {
   return (
