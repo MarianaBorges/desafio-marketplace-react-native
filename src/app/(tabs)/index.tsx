@@ -6,9 +6,6 @@ export default function HomeScreen() {
     <View style={{flex: 1, justifyContent: 'center', alignItems: "center"}}>
       <Text>Home</Text>
           <Link href="/(tabs)/product/1">produto</Link>
-          <Text>Home</Text>
- 
-        <Link href="/(tabs)/product/1">produto</Link>
     </View>
   );
 }
