@@ -12,10 +12,12 @@ interface AuthHeaderProps {
 
 export default function AuthHeader({title, subTitle}: AuthHeaderProps){
   return (
-    <Box className="items-center">
-        <Logo width={64} height={64}/>
+    <Box className="w-full items-center gap-8">
+      <Logo width={64} height={64}/>
+      <Center>
         <Heading className="to-background-900">{title}</Heading>
         <Text>{subTitle}</Text>
+      </Center>
     </Box>
   )
 }

@@ -1,4 +1,5 @@
 'use client';
+import { tva } from '@gluestack-ui/nativewind-utils';
 import { vars } from 'nativewind';
 
 export const config = {
@@ -153,6 +154,24 @@ export const config = {
     '--color-indicator-primary': '55 55 55',
     '--color-indicator-info': '83 153 236',
     '--color-indicator-error': '185 28 28',
+
+    /*My colors */
+   '--color-orange-base': '242 77 13',
+  '--color-orange-dark': '196 60 8',
+  '--color-blue-light': '215 239 249',
+  '--color-blue-base': '94 197 253',
+  '--color-blue-dark': '0 156 240',
+  '--color-shape-white': '255 255 255',
+  '--color-shape-background': '251 244 244',
+  '--color-shape': '245 234 234',
+  '--color-gray-100': '173 173 173',
+  '--color-gray-200': '148 148 148',
+  '--color-gray-300': '102 102 102',
+  '--color-gray-400': '61 61 61',
+  '--color-gray-500': '29 29 29',
+  '--color-danger': '220 53 69',
+  '--color-success': '40 167 69'
+
   }),
   dark: vars({
     '--color-primary-0': '166 166 166',

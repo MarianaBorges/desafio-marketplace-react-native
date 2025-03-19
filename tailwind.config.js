@@ -114,11 +114,11 @@ module.exports = {
         typography: {
           0: 'rgb(var(--color-typography-0)/<alpha-value>)',
           50: 'rgb(var(--color-typography-50)/<alpha-value>)',
-          100: 'rgb(var(--color-typography-100)/<alpha-value>)',
-          200: 'rgb(var(--color-typography-200)/<alpha-value>)',
-          300: 'rgb(var(--color-typography-300)/<alpha-value>)',
-          400: 'rgb(var(--color-typography-400)/<alpha-value>)',
-          500: 'rgb(var(--color-typography-500)/<alpha-value>)',
+          100: 'rgb(var(--color-gray-100)/<alpha-value>)',
+          200: 'rgb(var(--color-gray-200)/<alpha-value>)',
+          300: 'rgb(var(--color-gray-300)/<alpha-value>)',
+          400: 'rgb(var(--color-gray-400)/<alpha-value>)',
+          500: 'rgb(var(--color-gray-500)/<alpha-value>)',
           600: 'rgb(var(--color-typography-600)/<alpha-value>)',
           700: 'rgb(var(--color-typography-700)/<alpha-value>)',
           800: 'rgb(var(--color-typography-800)/<alpha-value>)',
@@ -168,6 +168,23 @@ module.exports = {
           info: 'rgb(var(--color-indicator-info)/<alpha-value>)',
           error: 'rgb(var(--color-indicator-error)/<alpha-value>)',
         },
+        app: {
+          orangebase: 'rgb(var(--color-orange-base)/<alpha-value>)',
+          orangedark: 'rgb(var(--color-orange-dark)/<alpha-value>)',
+          bluelight: 'rgb(var(--color-blue-light)/<alpha-value>)',
+          bluebase: 'rgb(var(--color-blue-base)/<alpha-value>)',
+          bluedark: 'rgb(var(--color-blue-dark)/<alpha-value>)',
+          shapewhite: 'rgb(var(--color-shape-white)/<alpha-value>)',
+          shapebackground: 'rgb(var(--color-shape-background)/<alpha-value>)',
+          shape: 'rgb(var(--color-shape)/<alpha-value>)',
+          gray100: 'rgb(var(--color-gray-100)/<alpha-value>)',
+          gray200: 'rgb(var(--color-gray-200)/<alpha-value>)',
+          gray300: 'rgb(var(--color-gray-300)/<alpha-value>)',
+          gray400: 'rgb(var(--color-gray-400)/<alpha-value>)',
+          gray500: 'rgb(var(--color-gray-500)/<alpha-value>)',
+          danger: 'rgb(var(--color-danger)/<alpha-value>)',
+          success: 'rgb(var(--color-success)/<alpha-value>)',
+        }
       },
       fontFamily: {
         heading: undefined,
@@ -194,5 +211,5 @@ module.exports = {
       },
     },
   },
-  plugins: [gluestackPlugin],
+  plugins: [gluestackPlugin]
 };
